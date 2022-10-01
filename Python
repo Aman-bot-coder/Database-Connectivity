@@ -1,0 +1,6 @@
+#This is for connecting Python proram with a Sqlite Database
+
+conn = sqlite3.connect("Database_name.db")
+cur = conn.cursor()
+
+#Now use cur to execute all Database qqueries & conn.comit() to commit them
