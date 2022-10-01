@@ -1,1 +1,3 @@
 # Database-Connectivity
+
+This repository contains Database conncectivity syntax for various languages like  C, C++, Java, Python, etc...
