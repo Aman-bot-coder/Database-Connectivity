@@ -1,4 +1,4 @@
-const Student = require("../models/moodel1");
+const Student = require("../models/StudentModel");
 
 try {
     const student = await Student.find({ name: "Aryan Gupta" });
