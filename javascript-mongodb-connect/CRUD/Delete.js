@@ -1,4 +1,4 @@
-const Student = require("../models/moodel1");
+const Student = require("../models/StudentModel");
 
 try {
         let studentExists = await Student.findById(req.params.id);
