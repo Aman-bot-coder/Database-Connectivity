@@ -1,4 +1,4 @@
-const Student = require("../models/moodel1");
+const Student = require("../models/StudentModel");
 
 const newStudent = {};
     if (req.body.name) {
