@@ -1,4 +1,4 @@
-const Student = require("../models/moodel1");
+const Student = require("../models/StudentModel");
 
 
 const student = await Student.create({            // The .create() method calls the .save() method of mongoose to save the user as a new document into databasse.
